@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Algosup Newspaper</title>
+  <meta name="description" content="Free Bootstrap Theme by uicookies.com">
+  <meta name="keywords"
+    content="free website templates, free bootstrap themes, free template, free bootstrap, free website template">
+
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900|Rubik:300,400,500" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles-merged.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/custom.css">
+
+  <!--[if lt IE 9]>
+      <script src="js/vendor/html5shiv.min.js"></script>
+      <script src="js/vendor/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+  <!-- START: header -->
+
+  <header role="banner" class="probootstrap-header">
+    <div class="container-fluid">
+      <a href="index.html" class="probootstrap-logo">ALGOSUP NEWSPAPER<span>.</span></a>
+
+      <a href="#" class="probootstrap-burger-menu visible-xs"><i>Menu</i></a>
+      <div class="mobile-menu-overlay"></div>
+
+      <nav role="navigation" class="probootstrap-nav hidden-xs">
+        <ul class="probootstrap-main-nav">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="article.html">Articles</a></li>
+          <li><a href="reminders.html">Reminders</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+        <ul class="probootstrap-header-social hidden-xs">
+          <li><a href="#"><i class="icon-twitter"></i></a></li>
+          <li><a href="#"><i class="icon-facebook2"></i></a></li>
+          <li><a href="#"><i class="icon-instagram2"></i></a></li>
+        </ul>
+        <div class="extra-text visible-xs">
+          <a href="#" class="probootstrap-burger-menu"><i>Menu</i></a>
+          <h5>Social</h5>
+          <ul class="social-buttons">
+            <li><a href="#"><i class="icon-twitter"></i></a></li>
+            <li><a href="#"><i class="icon-facebook2"></i></a></li>
+            <li><a href="#"><i class="icon-instagram2"></i></a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- END: header -->
+
+  <!-- START: section -->
+  <section class="probootstrap-intro" style="background-image: url(img/work_5.jpg);"
+    data-stellar-background-ratio="0.5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7 probootstrap-intro-text">
+          <h1 class="probootstrap-animate" data-animate-effect="fadeIn">Reminders</h1>
+          <p class="watch-intro probootstrap-animate">Knowing that you are new, we have some reminders for you..</p>
+        </div>
+      </div>
+    </div>
+    <span class="probootstrap-animate"><a class="probootstrap-scroll-down js-next" href="#next-section">Scroll down <i
+          class="icon-chevron-down"></i></a></span>
+  </section>
+  <!-- END: section -->
+  <main>
+    <section id="next-section" class="probootstrap-section">
+      <div class="container">
+        <!-- Enter code here Louis -->
+        <h4> Hi ! Here you will have some hints on how to use HTML/CSS and a little bit of javascript.<br> Let's get
+          started !</h4>
+        <small>you will see a lot of links here, remember that there is no shame not knowing but shame on you if you
+          don't search for an answer. Internet is your friend. The two best site to search for answers are <a
+          href="https://developer.mozilla.org">developer.mozilla.org</a> and  <a href="https://www.w3schools.com">w3schools</a> </small>
+        <p>what do you want to learn ?</p>
+        <ul>
+          <li><a href="#html">HTML</a></li>
+          <li><a href="#css">CSS</a></li>
+          <li><a href="#js">Javascript</a></li>
+        </ul>
+        <div class="restrain-explication">
+          <h5 id="html">Step one: HTML</h5>
+          <p>You may want to create text but also separated boxes or a list of products etc...<br> All of this can be
+            done with html elements which always start and end with &#60 and &#62.
+            <br> for example to create this text I am using &#60p&#62 which is the element for a paragraph. As it would
+            take too long to explain all the possible elements, <a
+              href="https://developer.mozilla.org/fr/docs/Web/HTML/Element">here</a> is a link to a page listing all of
+            them.
+          </p>
+          <p>Now that we have that, how to create an html page from scratch??? <br> Well, it is easy (easy way at the end) :</p>
+          <ol>
+            <li>start with &#60!Doctype html&#62</li>
+            <li>create &#60head&#62 in which you declare the next things</li>
+            <li>In the head, declare &#60meta&#62 with your viewpport and the fact you use utf-8, the title element with the name of the website, and, all your links to css files (we will come back to css in the next chapter)</li>
+            <li>create body under head in which you'll put a header element and a footer element.</li>
+            <li>The header contains the menu</li>
+            <li>outside in the middle of head and footer is your website</li>
+            <li>The footer contains the credit block of your page</li>
+            <li>THE EASY WAY : at the start when there is still nothing, put ! and you will immediately have a guess from the code app, if you click tab, everything will appear (apart from your css link), just have to fill it</li>
+          </ol>
+          <h5 id="css">Step two: CSS</h5>
+          <p class="cssshow">Now you have words appearing in front of you yes ! but... aren't they just boring, pitch
+            black on white... I know ! let's add css, "cascade style sheet".
+            CSS is a mask which you give your website to hide it's horrible face, to declare a stylesheet in html use <br>&#60link rel="stylesheet" href="location_of_the_stylesheet"&#62
+          </p>
+          <p>All the properties can be found <a href="https://www.w3schools.com/cssref/">here</a>, but there is some properties which are to be used way more than others :</p>
+          <ul>
+            <li>a command to do a list without decorations in a single line -> text-decoration : none;</li>
+            <li>a command to do margins from the outside of the element (think of it as pushing the car while being outside of the car) -> margin-right/top/left/bottom : 0px/0%</li>
+            <li>a command to do margins from the inside of the element (think of it as pushing an object in the car while being in the car) -> padding-right/top/left/bottom : 0px/0%</li>
+            <li>a command to move to the end of your div  -> float : right(or left);</li>
+            <li>a command to have the element disconnect from the listed order (being in spectator in minecraft and going everywhere without having to move all the elements in front of you)  -> position : relative; (this is one of the best)</li>
+            <li>a command to choose if your element will appear or not, if it will be inline or not etc...  -> display : none/inline-block etc...;</li>
+          </ul>
+          <img  src="img/ca.png">
+          <small>This is how a page is usually built, you can see the use of padding and margin</small>
+          <p>A little (way) more advanced use of css is with @keyframe, you can use it to create animations like :</p>
+          <div class="showcubeborder">
+            <div class="showcube"></div>
+          </div>
+        <p>Look it up and have fun using it ! (In the code, you will find .showcube, good luck!)</p>
+          <h5 id="js">Step three: Javascript</h5>
+          <p class="cssshow">Well there is not a lot that you have to know here, here are the three things you should remember :  </p>
+          <ul>
+            <li>document.getElementById().style.cssvarneeded = "css like blue" to select or change the css</li>
+            <li>var x = document.createElement("button") and then x.id to create an element and add things to it. document.getElementById().appendChild(x) to add the element under another
+            </li>
+            <li>create a button element in html, set the onclick attribute with  function (functionname()) and in js create the function
+              and you can now write your code in the function. 
+            </li>
+            </ul>
+            <p>That concude our tutorial, for more informations please visit w3schools website, Good Luck!</p>
+          </div>
+      </div>
+    </section>
+
+  </main>
+  <footer class="probootstrap-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <p class="mb0">&copy; Copyright 2021, <a href=""> Algosup Student Council</a>. <br> Designed &amp; Developed
+            with <i class="icon-heart" style="position: relative; top: 2px;"></i>
+        </div>
+        <div class="col-md-6">
+          <p class="mb0 probootstrap-back-to-top"><a href="#" class="js-backtotop">Back to top</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/scripts.min.js"></script>
+  <script src="js/main.min.js"></script>
+  <script src="js/custom.js"></script>
+
+</body>
+
+</html>
